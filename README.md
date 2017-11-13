@@ -16,3 +16,7 @@ http://blog.csdn.net/qq_32385309/article/details/73326794
 5.require_relative
 
 6.常量
+
+7.include extend  混合   
+
+8.devise git上搜
