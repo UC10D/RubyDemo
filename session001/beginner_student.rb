@@ -1,7 +1,7 @@
 # Copyright(c):: 2017福州博翼互娱网络科技有限公司
 # Author:: 822LL
 # Created:: 2017/11/13
-require_relative("student")
+require_relative("../dent")
 class BeginnerStudent < Student
 
   def say_hi

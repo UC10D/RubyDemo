@@ -10,7 +10,7 @@ b = String.new("hehe")
 p b
 
 puts '===================Custom Class==================';
-require_relative'student'
+require_relative '../dent'
 c = Student.new("Jack", "1", "男")
 c.say_hi
 c.name=("Toni")
