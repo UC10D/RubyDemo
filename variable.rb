@@ -33,13 +33,13 @@ puts '===================Range==================';
 r = 1..3
 r2 = 1..3
 
-r.each{|x| p x}
-r2.each{|x| p x}
+r.each { |x| p x }
+r2.each { |x| p x }
 
 
-arr = [ 1, 2 ,4 ,5]
+arr = [1, 2, 4, 5]
 
-arr.each{|x| p x}
+arr.each { |x| p x }
 
 
 puts '===================Boolean==================';
