@@ -31,9 +31,9 @@ end
 a = Students.new
 
 
-# include First
+# include First   派到实例中去
 a.first
-# extend First
+# extend First   派到类方法中去
 Students.first
 
 
