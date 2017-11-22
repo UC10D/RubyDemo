@@ -19,6 +19,19 @@ class Api::V1::UsersController < ApplicationController
         render json:@user
     end
 
+    def update
+        @user = User.find(params[:id])
+        @user.update(user_params)
+        render json:@user
+    end
+
+    def destroy
+        @user = User.find(params[:id])
+        if @user.destroy then
+            render json:{"code":"200"}
+        end
+    end
+
     # 数据转化成对象
     private
     def user_params
