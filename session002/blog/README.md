@@ -1,24 +1,4 @@
-# README
+1.大体浏览，动手操作
+https://ruby-china.github.io/rails-guides/getting_started.html
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2.记下操作中的问题
