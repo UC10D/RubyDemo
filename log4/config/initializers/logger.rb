@@ -1,4 +1,4 @@
-require File.expand_path('../../../lib/payment/logger', __FILE__)
+require File.expand_path('../../../lib/logger', __FILE__)
 
 class InitLogConfig
   def initialize(logger_config)

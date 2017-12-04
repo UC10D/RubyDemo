@@ -1,0 +1,69 @@
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+    - 'spec/**/*/*'
+    - 'Gemfile'
+
+Style/IndentationWidth:
+  Width:                           2
+
+Lint/UnifiedInteger:
+  Description:                     'Use Integer instead of Fixnum or Bignum'
+  Enabled:                         false
+
+Style/NegatedIf:
+  Description:                     >-
+                 Favor unless over if for negative conditions
+                 (or control flow or).
+  StyleGuide:                      '#unless-for-negatives'
+  Enabled:                         false
+
+Style/IfUnlessModifier:
+  Description:                     >-
+                 Favor modifier if/unless usage when you have a
+                 single-line body.
+  StyleGuide:                      '#if-as-a-modifier'
+  Enabled:                         false
+
+Style/MethodMissing:
+  Enabled:                         false
+
+Style/AsciiComments:
+  Description:                     'Use only ascii symbols in comments.'
+  StyleGuide:                      '#english-comments'
+  Enabled:                         false
+
+Metrics/MethodLength:
+  Max:                             100
+
+Metrics/LineLength:
+  Max:                             150
+
+Metrics/ClassLength:
+  Max:                             150
+
+Style/SpecialGlobalVars:
+  Enabled:                         false
+
+Style/BracesAroundHashParameters:
+  Enabled:                         false
+
+Documentation:
+  Enabled:                         false
+
+Metrics/AbcSize:
+  Max:                             50
+
+Style/SymbolProc:
+  Enabled:                         false
+
+Style/NumericLiterals:
+  Enabled:                         false
+
+Metrics/CyclomaticComplexity:
+  Max:                             10
+
+Style/IndentHash:
+  EnforcedStyle:                   consistent
