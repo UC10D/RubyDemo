@@ -1,0 +1,15 @@
+defaults: &defaults
+  type: console # console | file | syslog
+  level: 0
+  format: '[%l][%d]:%m'
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+
+
