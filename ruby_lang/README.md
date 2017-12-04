@@ -1,4 +1,4 @@
-# RubyDemo
+# Ruby语法学习
 Ruby学习存档
 
 1.数值精度问题   
