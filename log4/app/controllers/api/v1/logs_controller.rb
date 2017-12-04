@@ -1,14 +1,3 @@
-class Api::V1::LogsController < ApplicationController
-
-    def index
-        Logger.debug("hahahaha   i m debug")
-        Logger.info("hahahaha   i m info")
-        Logger.warn("hahahaha   i m warn")
-        Logger.error("hahahaha   i m error")
-        Logger.fatal("hahahaha   i m fatal")
-        render json:{"code":"200"}
-    end
-end
 
 class PaymentLogConfig
     def initialize(name, suffix)
@@ -24,11 +13,16 @@ class PaymentLogConfig
       config['file_path'] = "./log/#{@file_path}"
       config
     end
-  end
+end
+class Api::V1::LogsController < ApplicationController
 
-  private
-  
-        def init_log(file_path)
-          config = PaymentLogConfig.new(file_path, Time.new.strftime('%Y-%m-%d'))
-          Logger.configure(config)
-        end
+    def index
+        Logger.debug("hahahaha   i m debug")
+        Logger.info("hahahaha   i m info")
+        Logger.warn("hahahaha   i m warn")
+        Logger.error("hahahaha   i m error")
+        Logger.fatal("hahahaha   i m fatal")
+        render json:{"code":"200"}
+    end
+end
+
