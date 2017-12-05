@@ -20,7 +20,7 @@ class Logger
     @logger_level = logger_conf['level'] || 0
     @logger_pattern = logger_conf['pattern'] || '[%L][%d]:%m'
     @logger_file_path = logger_conf['file_path'] || './log'
-    @logger_tag = logger_conf['tag'] || ''
+    @logger_tag = logger_conf['tag'] || 'tag'
 
     init_logger
 
