@@ -9,3 +9,7 @@
 * rspec
 
 * rubocop
+
+## mysql
+
+* mysql配置文件
