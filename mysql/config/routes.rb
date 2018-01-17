@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
+  resources :products
   get 'welcome/index'
 
-  # resources :articles
-
   get '/articles', to: 'articles#create'
+
+  resources :articles
 
   root 'welcome#index'
 end
